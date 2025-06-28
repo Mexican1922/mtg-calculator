@@ -1,0 +1,197 @@
+main{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 98vh;
+    /* align-items: center; */
+    /* margin: 40px 0; */
+}
+.parent{
+    background-color: rgb(33, 33, 44);
+    width: 33%;
+    height: 70%;
+    color: white;
+    font-family: 'Trebuchet MS';
+    margin: auto;
+    border-radius: 10px;
+    /* display: none; */
+}
+.star{ 
+   margin-top: 20px;
+   border: 1px solid rgb(46, 46, 58);
+   background-color: rgb(43, 43, 56);
+   padding: 10px;
+   border-radius: 50px;
+}
+h1{
+    font-size: xx-large;
+}
+p{
+    font-size: large;
+    color: rgb(176, 176, 206);
+}
+.part{
+    padding: 6px 20px;
+}
+
+.child{
+    display: flex;
+    padding: 6px 20px;
+    gap: 20px;
+    
+}
+button {
+    background-color: rgb(43, 43, 56);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    color: rgb(176, 176, 206);
+    border: 1px solid rgb(43, 43, 56);
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.final-btn{
+    margin: 20px;
+    cursor: pointer;
+    width: 80%;
+    height: 10%;
+    border-radius: 50px;
+    background-color: rgb(238, 137, 5);
+    border: 1px solid rgb(238, 137, 5);
+    font-weight: 900;
+}
+.final-btn:hover{
+    background-color: white;
+}
+
+.child button:hover {
+    background-color: rgb(238, 137, 5);
+    color: #000;
+}
+
+
+.parent1{
+    background-color: rgb(33, 33, 44);
+    width: 30%;
+    height: 70%;
+    color: white;
+    font-family: 'Trebuchet MS';
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    align-content: center;
+    display: none;
+}
+
+.xchild{
+     font-size: 16px;
+     margin-bottom: 150px;
+     margin-top: 0;
+}
+.parent1 h1{
+    margin: 10px 0;
+}
+.list {
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+.child1{
+    margin: 15px 0;
+}
+
+.step{
+    margin: 20px 70px;
+    width: 60%;
+    height: 5%;
+    border: 1px solid rgb(28, 28, 32);
+    background-color: rgb(28, 28, 32);
+    border-width: 10%;
+    color: rgb(238, 137, 5);
+    border-radius: 50px;
+    font-size: 13px;
+    align-content: center;
+}
+
+.active {
+    background-color: #fff;
+    color: #000;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .parent1 {
+        width: 45%;
+    }
+    .xchild{
+        font-size: 18px;
+    }
+    .parent {
+        width: 45%;
+    }
+    .child {
+        gap: 20px;
+    }
+    button {
+        width: 60px;
+        height: 60px;
+    }
+    .final-btn{
+        margin: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    p {
+        font-size: 15px;
+    }
+    h1 {
+        font-size: x-large;
+    }
+    .child {
+        gap: 10px;
+    }
+    button {
+        width: 50px;
+        height: 50px;
+        font-weight: 600;
+    }
+    .final-btn{
+        margin: 15px;
+    }
+    .xchild{
+        font-size: 15px;
+    }
+    .parent {
+        width: 50%;
+        height: 70%;
+    }
+    .parent1 {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .child {
+        gap: 10px;
+    }
+    .parent {
+        width: 88%;
+    }
+    button {
+        width: 50px;
+        height: 50px;
+    }
+    .final-btn{
+        margin: 25px;
+    }
+    .xchild{
+        font-size: 15px;
+    }
+    .parent1 {
+        width: 88%;
+    }
+    p {
+        font-size: 12px;
+    }
+}
